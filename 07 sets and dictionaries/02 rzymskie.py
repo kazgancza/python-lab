@@ -1,3 +1,24 @@
+"""
+Na rzymskie
+Dostępna pamięć: 32MB
+Wczytaj liczbę zapisaną w systemie dziesiętnym i wypisz jej wartość zapisaną cyframi
+rzymskimi. Wartości cyfr pojawiających się w testach przedstawione są w tabelce poniżej.
+I 1
+IV 4
+V 5
+IX 9
+X 10
+L 50
+C 100
+D 500
+M 1000
+Wejście
+Liczba arabska n (1 ≤ n ≤ 3000).
+Wyjście
+Pierwszy i jedyny wiersz wyjścia powinien wypisać jedno słowo – wartość n w zapisie
+rzymskim. 
+"""
+
 n = int(input())
 out = ""
 
