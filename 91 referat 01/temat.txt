@@ -1,0 +1,26 @@
+Temat: Najdłuższy malejący podciąg
+
+Termin: 28 kwietnia
+
+Wystąpienia są przygotowywane w grupach jedno-dwu osobowych. Wystąpienie nie może trwać dłużej niż 15 minut. Studenci przygotowują i przesyłają na moodle na tydzień przed terminem wygłoszenia referatu:
+
+1. Prezentację, która zawiera:
+
+ogólny opis algorytmu
+szczegółową specyfikację algorytmu
+animację działania algorytmu dla przykładowych danych (odpowiednio dobranych, by pokazać specyfikę algorytmu)
+określenie i uzasadnienie złożoności obliczeniowej algorytmu
+uzasadnienie poprawności algorytmu
+2. Program realizujący algorytm
+
+kod programu w języku Python
+dane do testowania efektywności działania algorytmu
+Podczas wystąpienia studenci objaśniają algorytm wspomagając wystąpienie prezentacją i gotowym programem. Każda osoba w zespole ma przypisana konkretną rolę (ustalają to studenci wcześniej między sobą). Po wystąpieniu powinien być krótki czas na zadawanie pytań i wyjaśnienia prowadzących.
+
+Ocena za referat:
+
+8 punkty - przeprowadzenie referatu z wykazaniem bardzo dobrego zrozumienia algorytmu
+
+4 punktów - objaśnienie i zademonstrowanie działania programu
+
+3 punkty - jasne odpowiedzi na pytania
