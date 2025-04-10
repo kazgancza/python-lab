@@ -1,28 +1,28 @@
 
 def stern_brocot(n):
-    if n==0:
+    if n == 0:
         return [[0, 1], [1, 0]]
-    
+
     values = [[0, 1], [1, 1], [1, 0]]
 
     for _ in range(n - 1):
-        i = 0
-        while i < len(values) - 1:
+        new_values = []
+        for i in range(len(values) - 1):
             a = values[i]
             b = values[i + 1]
-            new_value = [a[0] + b[0], a[1] + b[1]]
-            values.insert(i + 1, new_value)
-            i += 2
+            new_values.append(a)
+            new_values.append([a[0] + b[0], a[1] + b[1]])
+        new_values.append(values[-1])
+        values = new_values
 
     return values
 
 n = int(input())
 
-values=stern_brocot(n)
+values = stern_brocot(n)
 
 for el in values:
     print(f"{el[0]}/{el[1]} ", end="")
-
 
 """
 Drzewo Sterna-Brocota to drzewo binarne zawierające wszystkie dodatnie ułamki
