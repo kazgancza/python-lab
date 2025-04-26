@@ -1,3 +1,8 @@
+
+"""
+Ta wersja znajduje najdłuższy malejący ciągły podciąg
+"""
+
 n = int(input().strip())
 numbers = []
 
