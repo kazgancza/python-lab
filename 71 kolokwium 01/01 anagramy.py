@@ -11,17 +11,13 @@ def is_anagram(k, l):
     for letter in l:
         l_list.append(letter)
 
-    
     if k_list.sort() == l_list.sort():
         return True
     
     return False
 
-    
-
 k = input()
 l = input()
-
 
 if is_anagram(k, l):
     print("TAK")
