@@ -6,14 +6,14 @@ def RPN(text): # reversed polish notation
             stack.append(int(action))
         except ValueError:
             temp = stack.pop()
-        if action == 'M':   # mnożenie (multiplication)
-            stack[-1] *= temp
-        elif action == 'D': # dodawanie (adding)
-            stack[-1] += temp
-        else:               # odejmowanie (subtracting)
-            stack[-1] -= temp
+            if action == 'M':   # mnożenie (multiplication)
+                stack[-1] *= temp
+            elif action == 'D': # dodawanie (adding)
+                stack[-1] += temp
+            else:               # odejmowanie (subtracting)
+                stack[-1] -= temp
 
-        return stack[0] # returns result
+    return stack[0] # returns result
 
 
 n = int(input())
