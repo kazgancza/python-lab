@@ -12,7 +12,8 @@ cables = []
 for _ in range(n):
     wire, battery = map(int, input().split())
     cables.append(Cable(wire, battery))
-cables.sort()
+
+cables.sort(reverse=True)
 
 sum_wire = 0
 sum_battery = 0
@@ -27,5 +28,3 @@ for cable in cables:
         break
 
 print(count)
-
-
